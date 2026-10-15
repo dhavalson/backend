@@ -30,7 +30,7 @@ app.use(
 app.use(
   cors({
     // origin: 'http://localhost:3000', // Must match your React frontend URL
-    origin: process.env.FRONTEND_URL,
+    origin: process.env.FRONTEND_URL, //
     credentials: true,               // Allows httpOnly cookie sharing
   })
 );
